@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+section {
+    margin: 20px auto;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 225px;
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    margin: 0;
+    text-align: center;
+}
+
+.project-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 18px;
+}
